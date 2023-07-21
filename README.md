@@ -50,13 +50,13 @@ Technologies Used
     Firebase (Authentication, Realtime Database, Cloud Messaging)
 
     Picasso 
-    https://github.com/square/picasso
+https://github.com/square/picasso
 
     CircularStatusView by 3llomi (version 1.0.3):
-    https://github.com/3llomi/CircularStatusView
+ https://github.com/3llomi/CircularStatusView
 
     StoryView by OMARIHAMZA (version 1.0.2-alpha):
-    https://github.com/OMARIHAMZA/StoryView
+ https://github.com/OMARIHAMZA/StoryView
     ...
 
 Getting Started
