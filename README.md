@@ -25,9 +25,7 @@ Features
     User Analytics: Administrators can analyze user data to gain insights into popular content and user engagement.
 
     User Privacy and Security: The platform ensures user data is protected and complies with data protection regulations.
-
-
-
+    
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/d79bf5a6-9c10-4fc9-8bb9-fb5e46bb5344" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/9bbb7826-496a-4794-b359-95761ebd861a" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/0ce12e9c-fa39-4cda-a380-41aa20d13394" width="200" height="400">
