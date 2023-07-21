@@ -38,7 +38,7 @@ Include a few screenshots showcasing the user interface and key features of your
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/4fada343-81a4-4fb8-898b-f11900ccba53" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/821cf353-88db-4973-9661-a69c28a193d3" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/b80319e9-af9e-4ab3-9fa2-1439b753cb1b" width="200" height="400">
-<img src="[https://github.com/jester-sys/Social-Media-App/assets/115554090/46020ed5-c3f2-4825-b5cb-1ee4a3e69bb7" width="200" height="400">
+
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/0629630e-daad-4f27-95b7-d2965b42ca73" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/7d6c33ac-36a0-4319-a64d-ca3e65db8eee" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/a1ad928b-74e0-4b0a-966b-4488ee2817e4" width="200" height="400">
