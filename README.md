@@ -30,6 +30,8 @@ Screenshots
 
 Include a few screenshots showcasing the user interface and key features of your app. For example:
 
+
+<img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/074ca8a4-ba0f-4cf7-8cba-456d51654ff3" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/ff0698f1-cb0a-4cfb-99e8-e9e37b815fe3" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/d79bf5a6-9c10-4fc9-8bb9-fb5e46bb5344" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/9bbb7826-496a-4794-b359-95761ebd861a" width="200" height="400">
@@ -38,7 +40,6 @@ Include a few screenshots showcasing the user interface and key features of your
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/4fada343-81a4-4fb8-898b-f11900ccba53" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/821cf353-88db-4973-9661-a69c28a193d3" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/b80319e9-af9e-4ab3-9fa2-1439b753cb1b" width="200" height="400">
-
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/0629630e-daad-4f27-95b7-d2965b42ca73" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/7d6c33ac-36a0-4319-a64d-ca3e65db8eee" width="200" height="400">
 <img src="https://github.com/jester-sys/Social-Media-App/assets/115554090/a1ad928b-74e0-4b0a-966b-4488ee2817e4" width="200" height="400">
