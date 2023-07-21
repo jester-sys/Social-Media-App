@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityClass.CommentActivity">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/kriana"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="Jai Shreee"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/profile_image"
+                    app:layout_constraintStart_toEndOf="@+id/profile_image"
+                    app:layout_constraintTop_toTopOf="@+id/profile_image" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Krishna "
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/userName"
+        app:layout_constraintStart_toEndOf="@+id/userName"
+        app:layout_constraintTop_toTopOf="@+id/userName" />
+
+    <TextView
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="Hare Krishna"
+                    app:layout_constraintEnd_toStartOf="@+id/userName"
+                    app:layout_constraintStart_toStartOf="@+id/userName"
+                    app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/shapeableImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kriana"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/about"
+                    app:shapeAppearanceOverlay="@style/curved" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView" />
+
+    <View
+        android:id="@+id/g5"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="10dp"
+        android:background="#EF373737"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/circleImageView"
+        app:layout_constraintEnd_toStartOf="@+id/shapeableImageView"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/kriana"
+        app:layout_constraintBottom_toBottomOf="@+id/commentET"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/commentET"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <EditText
+        android:id="@+id/commentET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/comment_box_desgin"
+        android:ems="10"
+        android:textColor="#000000"
+        android:layout_marginBottom="5dp"
+        android:hint="Write a Comment"
+        android:inputType="textMultiLine|textPersonName"
+        android:maxLines="2"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView" />
+
+    <ImageView
+        android:id="@+id/commentPostBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/commentET"
+        app:layout_constraintTop_toTopOf="@+id/commentET"
+        app:srcCompat="@drawable/baseline_send_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

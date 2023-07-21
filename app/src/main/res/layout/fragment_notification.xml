@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.NotificationFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_margin="15dp"
+        android:text="Activity"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/AllBtn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="All"
+               android:paddingBottom="5dp"
+               android:paddingTop="5dp"
+               android:paddingEnd="40dp"
+               android:paddingStart="40dp"
+               android:background="@drawable/btn_desgin"
+               android:layout_marginEnd="10dp"
+               android:textSize="16sp"
+               android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/RequestBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/btn_desgin"
+                android:paddingEnd="40dp"
+                android:paddingStart="40dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+            android:id="@+id/MentionsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/btn_desgin"
+            android:text="Mention"
+                android:paddingEnd="40dp"
+                android:paddingStart="40dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/notification_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

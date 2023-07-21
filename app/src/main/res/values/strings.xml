@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Stitch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="krishnaWrods">\"It is better to live your own destiny imperfectly but happily than to live an imitation of somebody’s life with perfection and sorrow.\"\n</string>
+    <string name="Bio">CS Student \nFull stack Android developer\nThe real success comes from making your code open-source!</string>
+    <string name="search">Search Here ..\n</string>
+</resources>

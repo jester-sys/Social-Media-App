@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/dialog_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_desgin">
+
+
+   <TextView
+       android:id="@+id/uploadImage"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="New profile picture"
+       android:textStyle="normal"
+       android:textSize="14sp"
+       android:drawableStart="@drawable/uploadimage"
+       android:padding="5dp"
+       android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/deleteImage"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New profile picture"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:drawableStart="@drawable/baseline_delete_24"
+        android:padding="5dp"
+        android:drawablePadding="10dp"/>
+</LinearLayout>

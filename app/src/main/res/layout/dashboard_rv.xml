@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/kriana"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Krishna"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_image"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toTopOf="@+id/profile_image" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yadav"
+        android:layout_marginStart="4dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/userName"
+        app:layout_constraintStart_toEndOf="@+id/userName"
+        app:layout_constraintTop_toTopOf="@+id/userName" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8 m"
+        android:layout_marginEnd="20dp"
+        android:textColor="#339AF0"
+        app:layout_constraintBottom_toBottomOf="@+id/userName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/userName" />
+
+
+
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/krishnaWrods"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/userName"
+        app:layout_constraintStart_toStartOf="@+id/userName"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kriana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about"
+        app:shapeAppearanceOverlay="@style/curved" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/baseline_favorite_border_24"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView" />
+
+    <ImageView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/comment"
+        app:layout_constraintBottom_toBottomOf="@+id/like"
+        app:layout_constraintStart_toEndOf="@+id/like"
+        app:layout_constraintTop_toTopOf="@+id/like" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="34dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/sent_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/comment"
+        app:layout_constraintStart_toEndOf="@+id/comment"
+        app:layout_constraintTop_toTopOf="@+id/comment" />
+
+    <TextView
+        android:id="@+id/Liketext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="20 likes"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/like"
+        app:layout_constraintTop_toBottomOf="@+id/comment" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:text=">"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/Liketext"
+        app:layout_constraintStart_toEndOf="@+id/Liketext"
+        app:layout_constraintTop_toBottomOf="@+id/comment" />
+
+    <TextView
+        android:id="@+id/CommentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 reply"
+        android:textStyle="italic"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#EF373737"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginBottom="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Liketext" />
+
+    <View
+        android:id="@+id/g5"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:background="#EF373737"
+        app:layout_constraintBottom_toBottomOf="@+id/Liketext"
+        app:layout_constraintEnd_toStartOf="@+id/shapeableImageView"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileComment"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/kriana"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

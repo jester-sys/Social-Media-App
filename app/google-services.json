@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801725769182",
+    "project_id": "stitch-be739",
+    "storage_bucket": "stitch-be739.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801725769182:android:473e51d04849f65e05e94f",
+        "android_client_info": {
+          "package_name": "com.krishna.stitch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801725769182-idog8f482p6to1mnfgt3rl04aif48mfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAONtEGwDwDBtf4gZh2nshmGLcwKMVhovU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801725769182-idog8f482p6to1mnfgt3rl04aif48mfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
